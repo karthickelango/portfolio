@@ -1,6 +1,6 @@
 import React from 'react'
 import image from '../images/profile_pic.jpeg'
-import { TabTitle } from '../utils/GeneralFunctionn'
+import { TabTitle } from '../utils/GeneralFunction'
 
 
 

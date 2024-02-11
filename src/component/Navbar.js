@@ -12,9 +12,6 @@ const Navbar = () => {
                     </Link>
                     <ul className="nav justify-content-center nav-center">
                         <NavLink to="/" className="nav-item">
-                            <span className="nav-link">Home</span>
-                        </NavLink>
-                        <NavLink to="/about" className="nav-item">
                             <span className="nav-link">About</span>
                         </NavLink>
                         <NavLink to="/qualification" className="nav-item">

@@ -7,9 +7,6 @@ const Footer = () => {
         <div className="container-fluid footer border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40s mt-20">
             <ul>
                 <NavLink to="/" className="footer-item">
-                    <span className="footer-link">Home</span>
-                </NavLink>
-                <NavLink to="/about" className="footer-item">
                     <span className="footer-link">About</span>
                 </NavLink>
                 <NavLink to="/qualification" className="footer-item">

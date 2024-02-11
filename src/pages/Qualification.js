@@ -1,5 +1,5 @@
 import React from 'react'
-import { TabTitle } from '../utils/GeneralFunctionn'
+import { TabTitle } from '../utils/GeneralFunction'
 
 const Qualification = () => {
     TabTitle('Qualification')
