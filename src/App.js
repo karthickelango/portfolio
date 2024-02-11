@@ -5,18 +5,20 @@ import About from './pages/About';
 import Qualification from './pages/Qualification';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
+import Footer from './component/Footer';
 
 function App() {
   return (
     <div className="main-item">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/qualification" element={<Qualification />}></Route>
-        <Route path="/skills" element={<Skills />}></Route>
-        <Route path="/projects" element={<Projects />}></Route>
+        <Route path="/" element={<Home />} title="Home"></Route>
+        <Route path="/about" element={<About />} title="About"></Route>
+        <Route path="/qualification" element={<Qualification />} title="Index Page"></Route>
+        <Route path="/skills" element={<Skills />} title="Index Page"></Route>
+        <Route path="/projects" element={<Projects />} title="Index Page"></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }

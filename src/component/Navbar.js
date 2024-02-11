@@ -28,7 +28,6 @@ const Navbar = () => {
                         </NavLink>
                     </ul>
                     <span className="navbar-brand mb-0 h1"></span>
-
                 </div>
             </nav>
         </>

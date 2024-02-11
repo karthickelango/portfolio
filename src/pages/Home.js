@@ -1,8 +1,10 @@
 import React from 'react'
 import image from '../images/profile_pic.jpeg'
+import { TabTitle } from '../utils/GeneralFunctionn'
 
 
 const Home = () => {
+  TabTitle('Home')
   return (
     <div className='container-item home'>
       <div class="container mt-30">
