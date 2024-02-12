@@ -16,6 +16,9 @@ import BOOTSTRAP from '../images/svg/bootstrap.svg'
 import TAILWIND from '../images/svg/tailwind.svg'
 import MUI from '../images/svg/mui.svg'
 import MOBD from '../images/svg/mongodb.svg'
+import GIT from '../images/svg/github.svg'
+import JIRA from '../images/svg/jira.svg'
+import UnderLine from '../images/svg/underline.svg'
 
 const Skills = () => {
     TabTitle('Skills')
@@ -34,7 +37,9 @@ const Skills = () => {
         { id: 1, title: 'Visual Studio', src: VISUAL },
         { id: 2, title: 'Pycharm', src: PYCHARM },
         { id: 3, title: 'Postman', src: POSTMAN },
-        { id: 4, title: 'Figma', src: FIGMA }
+        { id: 4, title: 'Figma', src: FIGMA },
+        { id: 5, title: 'Github', src: GIT },
+        { id: 6, title: 'Jira', src: JIRA }
 
     ]
     const DB = [
@@ -49,7 +54,9 @@ const Skills = () => {
         <>
             <div className='container-item text-center'>
                 <div className='p-20 '>
-                    <p className='main-title'>Web Technologies</p>
+                    <p className='main-title'>
+                        <p>Web Technologies</p>
+                    </p>
                     <ul className='frontend-icon'>
                         {
                             frontend.map(obj => (
@@ -62,7 +69,9 @@ const Skills = () => {
                     </ul>
                 </div>
                 <div className='p-20  border-t border-zinc-100 dark:border-zinc-700/40s'>
-                    <p className='main-title'>Tools</p>
+                    <p className='main-title'>
+                        <p>Tools</p>
+                    </p>
                     <ul className='frontend-icon'>
                         {
                             tools.map(obj => (
@@ -75,7 +84,9 @@ const Skills = () => {
                     </ul>
                 </div>
                 <div className='p-20 border-t border-zinc-100 dark:border-zinc-700/40s'>
-                    <p className='main-title'>FrameWorks</p>
+                    <p className='main-title'>
+                        <p>FrameWorks</p>
+                    </p>
                     <ul className='frontend-icon'>
                         {
                             Framework.map(obj => (
@@ -88,7 +99,9 @@ const Skills = () => {
                     </ul>
                 </div>
                 <div className='p-20 border-t border-zinc-100 dark:border-zinc-700/40s'>
-                    <p className='main-title'>Database</p>
+                    <p className='main-title'>
+                        <p>Database</p>
+                    </p>
                     <ul className='frontend-icon'>
                         {
                             DB.map(obj => (

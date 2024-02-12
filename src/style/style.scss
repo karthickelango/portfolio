@@ -1,23 +1,40 @@
+:root {
+    --primary-color: #213542;
+    --secondary-color: #596e7d;
+    --primary-blue: #0291D9;
+    --secondary-blue: #5EC4F3;
+    --white: #ffffff;
+    --background: #FCFAFF;
+    --black: #000000;
+    --btn-background: #F5F0FF;
+  }
+
 body {
     background-color: #fafafa;
 }
-
+.primary-color {
+    color: var(--primary-color);
+  }
+  
+  .secondary-color {
+    color: var(--secondary-color);
+  }
 .nav-center {
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
     border-radius: 20px;
     border: 1px solid #e5e7eb;
 
     a {
-        color: #000 !important;
+        color: var(--primary-color) !important;
 
         .nav-link {
-            color: #000 !important;
+            color: var(--primary-color) !important;
             font-weight: 500;
         }
 
         &.active {
             .nav-link {
-                color: #15b8a6 !important;
+                color: var(--primary-blue) !important;
 
             }
         }
@@ -29,7 +46,7 @@ body {
     margin: 0 auto;
     background-color: #fff;
     padding: 10px 50px;
-
+    color: var(--primary-color);
     .container-item {
         max-width: 1000px;
         margin: 0 auto;
@@ -51,13 +68,16 @@ body {
 .text-48 {
     font-size: 48px;
     font-weight: 700;
+    .role {
+        color: var(--primary-blue);
+    }
 }
 
 .main-image {
     width: 350px;
     border-radius: 20px;
     margin: 0 auto;
-    filter: grayscale(100%);
+    // filter: grayscale(100%);
     transform: translateX(8px) translateY(60px) scaleX(0.75) scaleY(0.75) rotate(6deg) translateZ(0px);
 }
 
@@ -75,9 +95,9 @@ body {
     .footer-item {
         padding: 0px 15px;
         font-weight: 600;
-
+        color: var(--primary-color);
         &:hover {
-            color: #15b8a6;
+            color: var(--primary-blue);
         }
     }
 }
@@ -126,4 +146,11 @@ body {
     font-size: 36px;
     font-weight: 600;
     margin-bottom: 3rem;
+}
+.role-title {
+    color: var(--primary-blue);
+}
+.q-list-item {
+    list-style: disc;
+    padding-left: 20px;
 }

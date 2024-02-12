@@ -1,6 +1,6 @@
 import { React, Fragment } from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import image from '../images/profile_pic.jpeg'
+import image from '../images/profile.png'
 
 const Navbar = () => {
     return (

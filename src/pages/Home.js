@@ -12,21 +12,21 @@ const Home = () => {
       <div class="container mt-30">
         <div class="row">
           <div class="col">
-            <h1 className='text-48 wow fadeInDown'>
-              I’m Karthick Elango, frontend developer in React & full stack in MERN.
+            <h1 className='text-48 wow fadeInDown primary-color'>
+              I’m Karthick Elango, <span className='role'>frontend developer in React & full stack in MERN.</span>
             </h1>
             <div className='mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400'>
-              <p>
+              <p className='secondary-color'>
                 As a seasoned frontend engineer, I bring a robust skill set in web development,
                 specializing in Angular, React, JavaScript, MERN stack (MongoDB, Express.js, React.js, Node.js), Bootstrap,
                 and Tailwind CSS. With extensive experience in crafting dynamic and responsive user interfaces,
                 I thrive on translating design concepts into seamless and intuitive digital experiences.
               </p>
-              <p>
+              <p className='secondary-color'>
                 My proficiency in Angular and React enables me to architect scalable and maintainable frontend solutions,
                 while my expertise in JavaScript empowers me to implement complex functionalities with efficiency and precision.
               </p>
-              <p>
+              <p className='secondary-color'>
                 Moreover, my adeptness in utilizing Bootstrap and Tailwind CSS ensures that my designs are not only visually appealing
                 but also optimized for performance across various devices and screen sizes. Combining these skills,
                 I am equipped to tackle diverse frontend challenges and deliver high-quality solutions that exceed expectations.
