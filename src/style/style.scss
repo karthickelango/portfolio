@@ -39,6 +39,7 @@ body {
 .profile-link {
     border-radius: 50px;
     border: 2px solid #ccc;
+
     .profile-pic {
         width: 40px;
         height: 40px;
@@ -46,10 +47,12 @@ body {
         padding: 3px;
     }
 }
+
 .text-48 {
     font-size: 48px;
     font-weight: 700;
-} 
+}
+
 .main-image {
     width: 350px;
     border-radius: 20px;
@@ -57,26 +60,70 @@ body {
     filter: grayscale(100%);
     transform: translateX(8px) translateY(60px) scaleX(0.75) scaleY(0.75) rotate(6deg) translateZ(0px);
 }
+
 .home {
     p {
         letter-spacing: 1.3px;
     }
-    .mt-30 {
-        margin-top: 6rem;
-    }
 }
+
 .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     .footer-item {
         padding: 0px 15px;
         font-weight: 600;
+
         &:hover {
             color: #15b8a6;
         }
     }
 }
+
 .align-item-center {
     align-items: center;
+}
+
+.frontend-icon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem 10rem;
+
+    li {
+        img {
+            width: 100px;
+            height: 100px;
+        }
+
+        text-align: center;
+
+        .title {
+            color: #a1a1aa;
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 20px;
+        }
+    }
+}
+
+.mt-30 {
+    margin-top: 6rem;
+}
+
+.mt-20 {
+    margin-top: 3rem !important;
+}
+
+.p-20 {
+    padding: 2rem 0rem;
+}
+
+.main-title {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 3rem;
 }
