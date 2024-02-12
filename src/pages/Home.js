@@ -2,6 +2,7 @@ import React from 'react'
 import image from '../images/profile_pic.jpeg'
 import { TabTitle } from '../utils/GeneralFunction'
 import socialIcon from '../images/linkedin.svg'
+import HireMe from '../component/HireMe'
 
 
 
@@ -15,6 +16,7 @@ const Home = () => {
             <h1 className='text-48 wow fadeInDown primary-color'>
               I’m Karthick Elango, <span className='role'>frontend developer in React & full stack in MERN.</span>
             </h1>
+            <HireMe />
             <div className='mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400'>
               <p className='secondary-color'>
                 As a seasoned frontend engineer, I bring a robust skill set in web development,
