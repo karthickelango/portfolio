@@ -11,6 +11,7 @@
 
 body {
     background-color: #fafafa;
+    letter-spacing: 1.3px;
 }
 .primary-color {
     color: var(--primary-color);
@@ -71,6 +72,7 @@ body {
 .text-48 {
     font-size: 48px;
     font-weight: 700;
+    letter-spacing: normal;
     .role {
         color: var(--primary-blue);
     }
@@ -156,4 +158,43 @@ body {
 .q-list-item {
     list-style: disc;
     padding-left: 20px;
+    li {
+        color: var(--secondary-color);
+    }
+}
+.react-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+.code-box {
+    background-color: rgb(40, 44, 52);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: pre-wrap; 
+    overflow-x: auto;
+    .code-import {
+        color:rgb(197, 165, 197);
+    }
+    .code-red {
+        color: rgb(222, 147, 95);
+    }
+    .code-green {
+        color: rgb(181, 189, 104);
+    }
+    .code-yellow {
+        color: #ffe564;
+    }
+}
+
+/* Optional: Styling for the code inside pre tag */
+pre code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
 }
