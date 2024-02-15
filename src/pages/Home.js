@@ -157,8 +157,8 @@ const Home = () => {
                     </p>
                 </div>
                 <div className='py-5'>
-                    <h2 className='primary-color react-title py-3 text-center'>How Virtual DOM works?</h2>
-                    <p className='secondary-color pt-5'>1. Whenever any underlying data changes, the entire UI is re-rendered in Virtual DOM representation.</p>
+                    <h2 className='primary-color react-title py-3 text-center'>How Virtual DOM works</h2>
+                    <p className='secondary-color pt-2'>1. Whenever any underlying data changes, the entire UI is re-rendered in Virtual DOM representation.</p>
                     <div className='flex justify-sb'>
                         <div style={{ width: "350px" }} className=' text-center'>
                             <p className='text-dom'>Browser</p>
