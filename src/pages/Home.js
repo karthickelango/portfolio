@@ -169,7 +169,7 @@ const Home = () => {
                         </div>
                         <div style={{ width: "400px" }} className=' text-center'>
                             <p className='text-dom'>Real DOM</p>
-                            <img src={DOM2} className='dom-img-2' />
+                            <img src={DOM1} className='dom-img-1' />
                         </div>
                     </div>
                     <p className='secondary-color pt-5'>2. Then the difference between the previous DOM representation and the new one is calculated.</p>
