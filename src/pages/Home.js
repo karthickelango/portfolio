@@ -1,8 +1,12 @@
 import React from 'react'
 import image from '../images/profile_pic.jpeg'
 import { TabTitle } from '../utils/GeneralFunction'
-import socialIcon from '../images/linkedin.svg'
+import DOM1 from '../images/svg/dom-1.svg'
+import DOM2 from '../images/svg/dom-2.svg'
 import HireMe from '../component/HireMe'
+import COMPARE from '../images/svg/compare.svg'
+import BROWSER from '../images/svg/browser.svg'
+import ARROW from '../images/svg/arrow.svg'
 
 
 
@@ -11,7 +15,7 @@ const Home = () => {
     return (
         <div className='container-item home'>
             <div className="container mt-30">
-                <div className="row">
+                <div className="row pb-5">
                     <div className="col">
                         <h1 className='text-48 wow fadeInDown primary-color'>
                             I’m Karthick Elango, <span className='role'>frontend developer in React & full stack in MERN.</span>
@@ -54,42 +58,48 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <p className='text-center'>
+                {/* <p className='text-center'>
                     <HireMe />
-                </p>
-                <div className='pt-5'>
-                    <h2 className='primary-color react-title py-3'>What is React?</h2>
-                    <p className='secondary-color'>
-                        React is an open-source, front end, JavaScript library for building user interfaces or UI components.
-                        It is maintained by Facebook and a community of individual developers and companies.
-                        React can be used as a base in the development of single-page or mobile applications.
-                    </p>
-                    <pre style={{ backgroundColor: 'rgb(29, 31, 33)', padding: '10px', borderRadius: '5px', whiteSpace: 'pre-wrap', overflowX: 'auto' }}>
-                        <code style={{ fontFamily: 'Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace', fontSize: '14px', color: '#f4f4f4', lineHeight: '1.5' }}>
-                            {
-                                <>
-                                    <span className='code-import'>import</span> <span className='code-red'>React</span> <span className='code-import'>from</span> <span className='code-green'>'react'</span>
-                                    <div>
-                                        <span className='code-import'>const</span> <span className='code-yellow'>App</span> = () ={'>'} {'{'}
-                                        <div>
-                                            <span>return</span> {'('}
-                                            <div>
-                                                {`<h1>Hello</h1>`}
+                </p> */}
+                <div className='py-5'>
+                    <div className='row'>
+                        <div className='col'>
+                            <h2 className='primary-color react-title pb-3'>What is React?</h2>
+                            <p className='secondary-color'>
+                                React is an open-source, front end, JavaScript library for building user interfaces or UI components.
+                                It is maintained by Facebook and a community of individual developers and companies.
+                                React can be used as a base in the development of single-page or mobile applications.
+                            </p>
+                        </div>
+                        <div className='col'>
+                            <pre>
+                                <code>
+                                    {
+                                        <>
+                                            <span className='code-import'>import</span> <span className='code-blue'>React</span> <span className='code-import'>from</span> <span className='code-green'>'react'</span>
+                                            <div className='mt-2'>
+                                                <span className='code-blue'>const</span> <span className='code-yellow'>App</span> = <span className='code-yellow'>()</span> <span className='code-blue'>={'>'}</span> <span className='code-yellow'>{'{'}</span>
+                                                <div className='ms-3'>
+                                                    <span className='code-import'>return</span> <span className='code-import'>{'('}</span>
+                                                    <div>
+                                                        <span className='code-blue'>{`<h1>`}</span>Hello<span className='code-blue'>{`</h1>`}</span>
+                                                    </div>
+                                                    <span className='code-import'>{')'}</span>
+                                                    <span className='code-yellow'>{'}'}</span>
+                                                </div>
+                                                <div className='mt-2'>
+                                                    <span className='code-import'>export</span> <span className='code-import'>default</span> <span className='code-yellow'>App</span>
+                                                </div>
                                             </div>
-                                            {')'}
-                                            {'}'}
-                                        </div>
-                                        <div>
-                                            <span className='code-import'>export</span> <span className='code-import'>default</span> <span className='code-yellow'>App</span>
-                                        </div>
-                                    </div>
-                                </>
-                            }
-                        </code>
-                    </pre>
+                                        </>
+                                    }
+                                </code>
+                            </pre>
+                        </div>
+                    </div>
                 </div>
-                <div className='pt-5'>
-                    <h2 className='primary-color react-title py-3'>Advantages of ReactJs</h2>
+                <div className='py-5'>
+                    <h2 className='primary-color react-title pb-3 text-center'>Advantages of ReactJs</h2>
                     <ul className='q-list-item'>
                         <li>Easy to Learn, Easy to Use. Being able to do awesome things is great, but only if you don't have to spend the rest of your life becoming proficient in a new technology.</li>
                         <li>Reusable Components.</li>
@@ -98,8 +108,45 @@ const Home = () => {
                         <li>It's Easier to Write with JSX</li>
                     </ul>
                 </div>
-                <div className='pt-5'>
-                    <h2 className='primary-color react-title py-3'>Major features of React</h2>
+                <div className='py-5'>
+                    <div className='row'>
+                        <div className='col p-3'>
+                            <pre>
+                                <code>
+                                    {
+                                        <>
+                                            <span className='code-import'>import</span> <span className='code-blue'>React</span> <span className='code-import'>from</span> <span className='code-green'>'react'</span>
+                                            <div className='mt-2'>
+                                                <span className='code-blue'>const</span> <span className='code-yellow'>App</span> = <span className='code-yellow'>()</span> <span className='code-blue'>={'>'}</span> <span className='code-yellow'>{'{'}</span>
+                                                <div className='ms-3'>
+                                                    <span className='code-import'>return</span> <span className='code-import'>{'('}</span>
+                                                    <div>
+                                                        <span className='code-blue'>{`<h1>`}</span>{'{'}'<span className='code-yellow'>Welcome</span> to <span className='code-blue'>React</span> world!'{'}'}<span className='code-blue'>{`</h1>`}</span>
+                                                    </div>
+                                                    <span className='code-import'>{')'}</span>
+                                                    <span className='code-yellow'>{'}'}</span>
+                                                </div>
+                                                <div className='mt-2'>
+                                                    <span className='code-import'>export</span> <span className='code-import'>default</span> <span className='code-yellow'>App</span>
+                                                </div>
+                                            </div>
+                                        </>
+                                    }
+                                </code>
+                            </pre>
+                        </div>
+                        <div className='col'>
+                            <h2 className='primary-color react-title py-3'>What is JSX?</h2>
+                            <p className='secondary-color'>
+                                JSX is a XML-like syntax extension to ECMAScript (the acronym stands for JavaScript XML).
+                                Basically it just provides syntactic sugar for the React.createElement() function,
+                                giving us expressiveness of JavaScript along with HTML like template syntax.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className='py-5'>
+                    <h2 className='primary-color react-title py-3 text-center'>Major features of React</h2>
                     <p className='secondary-color'>
                         <ul className='q-list-item'>
                             <li>It uses VirtualDOM instead of RealDOM considering that RealDOM manipulations are expensive.</li>
@@ -109,13 +156,37 @@ const Home = () => {
                         </ul>
                     </p>
                 </div>
-                <div className='pt-5'>
-                    <h2 className='primary-color react-title py-3'>What is React?</h2>
-                    <p className='secondary-color'>
-                        JSX is a XML-like syntax extension to ECMAScript (the acronym stands for JavaScript XML).
-                        Basically it just provides syntactic sugar for the React.createElement() function,
-                        giving us expressiveness of JavaScript along with HTML like template syntax.
-                    </p>
+                <div className='py-5'>
+                    <h2 className='primary-color react-title py-3 text-center'>How Virtual DOM works?</h2>
+                    <p className='secondary-color pt-5'>1. Whenever any underlying data changes, the entire UI is re-rendered in Virtual DOM representation.</p>
+                    <div className='flex justify-sb'>
+                        <div style={{ width: "350px" }} className=' text-center'>
+                            <p className='text-dom'>Browser</p>
+                            <img src={BROWSER} className='dom-img-1' />
+                        </div>
+                        <div style={{ width: "100px", marginLeft: '50px', marginTop: '300px' }} className=' text-center'>
+                           <img src={ARROW} className='dom-img-1' />
+                        </div>
+                        <div style={{ width: "400px" }} className=' text-center'>
+                            <p className='text-dom'>Real DOM</p>
+                            <img src={DOM2} className='dom-img-2' />
+                        </div>
+                    </div>
+                    <p className='secondary-color pt-5'>2. Then the difference between the previous DOM representation and the new one is calculated.</p>
+                    <div className='flex justify-sb'>
+                        <div style={{ width: "400px" }} className=' text-center'>
+                            <p className='text-dom'>Virtual DOM</p>
+                            <img src={DOM1} className='dom-img-1' />
+                        </div>
+                        <div style={{ width: "100px", marginLeft: '50px', marginTop: '100px' }} className=' text-center'>
+                            <p className='text-dom'>Compare</p>
+                            <img src={COMPARE} className='dom-img-1' />
+                        </div>
+                        <div style={{ width: "400px" }} className=' text-center'>
+                            <p className='text-dom'>Real DOM</p>
+                            <img src={DOM2} className='dom-img-2' />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div >

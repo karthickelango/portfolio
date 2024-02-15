@@ -7,22 +7,25 @@
     --background: #FCFAFF;
     --black: #000000;
     --btn-background: #F5F0FF;
-  }
+}
 
 body {
     background-color: #fafafa;
     letter-spacing: 1.3px;
 }
+
 .primary-color {
     color: var(--primary-color);
-  }
-  
-  .secondary-color {
+}
+
+.secondary-color {
     color: var(--secondary-color);
-  }
-  .bg-success {
+}
+
+.bg-success {
     background-color: var(--primary-blue) !important;
-  }
+}
+
 .nav-center {
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
     border-radius: 20px;
@@ -51,6 +54,7 @@ body {
     background-color: #fff;
     padding: 10px 50px;
     color: var(--primary-color);
+
     .container-item {
         max-width: 1000px;
         margin: 0 auto;
@@ -73,6 +77,7 @@ body {
     font-size: 48px;
     font-weight: 700;
     letter-spacing: normal;
+
     .role {
         color: var(--primary-blue);
     }
@@ -101,6 +106,7 @@ body {
         padding: 0px 15px;
         font-weight: 600;
         color: var(--primary-color);
+
         &:hover {
             color: var(--primary-blue);
         }
@@ -120,8 +126,8 @@ body {
 
     li {
         img {
-            width: 100px;
-            height: 100px;
+            width: 80px;
+            height: 80px;
         }
 
         text-align: center;
@@ -152,49 +158,78 @@ body {
     font-weight: 600;
     margin-bottom: 3rem;
 }
+
 .role-title {
     color: var(--primary-blue);
 }
+
 .q-list-item {
     list-style: disc;
     padding-left: 20px;
+
     li {
         color: var(--secondary-color);
     }
 }
+
 .react-title {
     font-size: 24px;
     font-weight: 500;
 }
+
 .code-box {
     background-color: rgb(40, 44, 52);
     color: rgb(255, 255, 255);
     border-radius: 10px;
 }
+
 pre {
-    background-color: #f4f4f4;
-    padding: 10px;
-    border-radius: 5px;
-    white-space: pre-wrap; 
+    background-color: #0d0d0d;
+    padding: 15px 30px;
+    border-radius: 10px;
+    white-space: pre-wrap;
     overflow-x: auto;
-    .code-import {
-        color:rgb(197, 165, 197);
+
+    code {
+        font-size: 14px;
+        color: #f4f4f4;
+        line-height: 1.5;
     }
+
+    .code-import {
+        color: #df3079;
+    }
+
     .code-red {
         color: rgb(222, 147, 95);
     }
+
     .code-green {
-        color: rgb(181, 189, 104);
+        color: #00a67d;
     }
+
     .code-yellow {
         color: #ffe564;
     }
-}
 
-/* Optional: Styling for the code inside pre tag */
-pre code {
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-    font-size: 14px;
-    color: #333;
-    line-height: 1.5;
+    .code-blue {
+        color: #2e95d3;
+    }
+}
+.dom-img-1 {
+    width: 400px;
+}
+.dom-img-2 {
+    width: 300px;
+    margin-left: 80px;
+}
+.justify-sb {
+    justify-content: space-between;
+}
+.text-dom {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--secondary-color);
+    padding: 20px 0px;
+    margin-top: 20px;
 }
