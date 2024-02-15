@@ -8,7 +8,7 @@ const Qualification = () => {
             <div className='container-item space-y-20'>
                 <div className='p-20 pb-0'>
                     <p className='main-title  text-center mb-0'>
-                        <p>Professional Experience</p>
+                        Professional Experience
                     </p>
                 </div>
                 {/* Mammoth */}
@@ -45,13 +45,13 @@ const Qualification = () => {
                                         <span className="relative z-10 role-title">UI developer</span>
                                     </h3>
                                     <p className="relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-3.5"><span className="absolute inset-y-0 left-0 flex items-center" aria-hidden="true"><span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span></span>Nov 2016 - Aug 2017. 10 mos (Bangalore)</p>
-                                    <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+                                    <div className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
                                         <ul className='q-list-item'>
                                             <li>Nokdok a plateform for clinic and hospital management system Worked on two project from scratch</li>
                                             <li>nokdok.com(for patient):- (languages used: HTML, CSS3, javascript, jquery, Materialize)</li>
                                             <li>nokdok.com(for polyclinic):- (languages used: HTML, CSS3, javascript, jquery, Materialize, Angularjs)</li>
                                         </ul>
-                                    </p>
+                                    </div>
                                 </article>
                             </div>
                         </div>
@@ -70,13 +70,13 @@ const Qualification = () => {
                                         <span className="relative z-10 role-title">UI developer</span>
                                     </h3>
                                     <p className="relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-3.5"><span className="absolute inset-y-0 left-0 flex items-center" aria-hidden="true"><span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span></span>Apr 2015 - Aug 2016. 1 yr 5 mos (Bangalore)</p>
-                                    <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+                                    <div className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
                                         <ul className='q-list-item'>
                                             <li>mebelkart.com:- E-commerce site for buying furniture online (languages used: HTML, CSS3, javascript, jquery, Materialize) </li>
                                             <li>Designer.mebelkart.com:- site for Interior designers (lan- guages used: HTML, CSS3, javascript, jquery, bootstrap)</li>
                                             <li>Rentals.mebelkart.com:- site for Rent furniture (languages used: HTML, CSS3, javascript, jquery, bootstrap)</li>
                                         </ul>
-                                    </p>
+                                    </div>
                                 </article>
                             </div>
                         </div>
@@ -84,7 +84,7 @@ const Qualification = () => {
                 </section>
                 <div className='pb-0'>
                     <p className='main-title  text-center mb-0'>
-                        <p>Education</p>
+                        Education
                     </p>
                 </div>
                 <section className='md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40'>

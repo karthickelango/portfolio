@@ -50,7 +50,7 @@ const Home = () => {
                                 </li>
                                 <li className='mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40 flex'>
                                     <a className='align-item-center group flex text-sm font-medium text-zinc-800 transition hover dark:text-zinc-200 dark' href='mailto:karthik5ive@gmial.com'>
-                                        <svg viewBox="0 0 24 24" aria-hidden="true" className="h-6 w-6 flex-none fill-zinc-500 transition "><path fill-rule="evenodd" d="M6 5a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H6Zm.245 2.187a.75.75 0 0 0-.99 1.126l6.25 5.5a.75.75 0 0 0 .99 0l6.25-5.5a.75.75 0 0 0-.99-1.126L12 12.251 6.245 7.187Z"></path></svg>
+                                        <svg viewBox="0 0 24 24" aria-hidden="true" className="h-6 w-6 flex-none fill-zinc-500 transition "><path fillRule="evenodd" d="M6 5a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H6Zm.245 2.187a.75.75 0 0 0-.99 1.126l6.25 5.5a.75.75 0 0 0 .99 0l6.25-5.5a.75.75 0 0 0-.99-1.126L12 12.251 6.245 7.187Z"></path></svg>
                                         <span className='ml-4'>karthik5ive@gmial.com</span>
                                     </a>
                                 </li>
@@ -147,14 +147,12 @@ const Home = () => {
                 </div>
                 <div className='py-5'>
                     <h2 className='primary-color react-title py-3 text-center'>Major features of React</h2>
-                    <p className='secondary-color'>
                         <ul className='q-list-item'>
                             <li>It uses VirtualDOM instead of RealDOM considering that RealDOM manipulations are expensive.</li>
                             <li>Supports server-side rendering.</li>
                             <li>Follows Unidirectional data flow or data binding.</li>
                             <li>Uses reusable/composable UI components to develop the view.</li>
                         </ul>
-                    </p>
                 </div>
                 <div className='py-5'>
                     <h2 className='primary-color react-title py-3 text-center'>How Virtual DOM works</h2>

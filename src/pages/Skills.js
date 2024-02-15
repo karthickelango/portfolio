@@ -55,7 +55,7 @@ const Skills = () => {
             <div className='container-item text-center'>
                 <div className='p-20 '>
                     <p className='main-title'>
-                        <p>Web Technologies</p>
+                        Web Technologies
                     </p>
                     <ul className='frontend-icon'>
                         {
@@ -70,7 +70,7 @@ const Skills = () => {
                 </div>
                 <div className='p-20  border-t border-zinc-100 dark:border-zinc-700/40s'>
                     <p className='main-title'>
-                        <p>Tools</p>
+                        Tools
                     </p>
                     <ul className='frontend-icon'>
                         {
@@ -85,7 +85,7 @@ const Skills = () => {
                 </div>
                 <div className='p-20 border-t border-zinc-100 dark:border-zinc-700/40s'>
                     <p className='main-title'>
-                        <p>FrameWorks</p>
+                        FrameWorks
                     </p>
                     <ul className='frontend-icon'>
                         {
@@ -100,7 +100,7 @@ const Skills = () => {
                 </div>
                 <div className='p-20 border-t border-zinc-100 dark:border-zinc-700/40s'>
                     <p className='main-title'>
-                        <p>Database</p>
+                        Database
                     </p>
                     <ul className='frontend-icon'>
                         {
