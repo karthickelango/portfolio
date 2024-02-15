@@ -162,7 +162,7 @@ const Home = () => {
                             <p className='text-dom'>Browser</p>
                             <img src={BROWSER} className='dom-img-1' style={{border: "1px solid #cccccc5e", borderRadius: "10px" }}/>
                         </div>
-                        <div style={{ width: "100px", marginLeft: '50px', marginTop: '300px' }} className=' text-center'>
+                        <div style={{ width: "100px", marginLeft: '50px', marginTop: '250px' }} className=' text-center'>
                            <img src={ARROW} className='dom-img-1' />
                         </div>
                         <div style={{ width: "400px" }} className=' text-center'>
