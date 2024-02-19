@@ -7,6 +7,7 @@ import HireMe from '../component/HireMe'
 import COMPARE from '../images/svg/compare.svg'
 import BROWSER from '../images/svg/browser.svg'
 import ARROW from '../images/svg/arrow.svg'
+import Resume from '../images/karthick Elango.png'
 
 
 
@@ -54,13 +55,18 @@ const Home = () => {
                                         <span className='ml-4'>karthik5ive@gmial.com</span>
                                     </a>
                                 </li>
+                                <li className='mt-8 text-cente'>
+                                    <span style={{ fontWeight: '500' }}>Resume:</span> <HireMe />
+                                    <button type="button" className="bg-success download-btn inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto">
+                                        <a href={Resume} download>
+                                            Download
+                                        </a>
+                                    </button>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                {/* <p className='text-center'>
-                    <HireMe />
-                </p> */}
                 <div className='py-5'>
                     <div className='row'>
                         <div className='col'>
@@ -139,7 +145,7 @@ const Home = () => {
                             <h2 className='primary-color react-title py-3'>What is JSX?</h2>
                             <p className='secondary-color'>
                                 JSX is a XML-like syntax extension to ECMAScript (the acronym stands for JavaScript XML).
-                                JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement()  
+                                JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement()
                                 and/or appendChild() methods.
                             </p>
                         </div>

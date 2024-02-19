@@ -27,6 +27,25 @@ body {
 
 .bg-success {
     background-color: var(--primary-blue) !important;
+    &.close-btn {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background-color: transparent !important;
+        box-shadow: none !important;
+        color: var(--primary-color) !important;
+        img {
+            width: 30px;
+        }
+    }
+    &.download-btn {
+        background-color: var(--white) !important;
+        color: var(--primary-blue) !important;
+        outline: 1px solid var(--primary-blue);
+        a {
+            color: var(--primary-blue) !important;
+        }
+    }
 }
 
 .nav-center {
