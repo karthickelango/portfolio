@@ -25,7 +25,11 @@ const Qualification = () => {
                                     </h3>
                                     <p className="relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-3.5"><span className="absolute inset-y-0 left-0 flex items-center" aria-hidden="true"><span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span></span>Sep 2017 - July 2023. 5 yrs 11 mos (Bangalore)</p>
                                     <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-                                        The Mammoth platform (mammoth.io) is designed to take care of all client data needs. With powerful automation, customizable alerts, drill-down discovery and extensive data. As per business and product requirements I designed most of the components in AngularJs and currently they are migrating those components to VueJs.
+                                        <ul className='q-list-item'>
+                                            <li>The Mammoth Analytics is designed to take care of all client data needs.</li>
+                                            <li>I designed most of the components in AngularJS according to business and product requirements.</li>
+                                            <li>And has also contributed to similar development and maintenance of other related portals of Mammoth including its public website (mammoth.io) using Webflow & Docs & Release notes.</li>
+                                        </ul>
                                     </p>
                                 </article>
                             </div>

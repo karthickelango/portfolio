@@ -139,20 +139,20 @@ const Home = () => {
                             <h2 className='primary-color react-title py-3'>What is JSX?</h2>
                             <p className='secondary-color'>
                                 JSX is a XML-like syntax extension to ECMAScript (the acronym stands for JavaScript XML).
-                                Basically it just provides syntactic sugar for the React.createElement() function,
-                                giving us expressiveness of JavaScript along with HTML like template syntax.
+                                JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement()  
+                                and/or appendChild() methods.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div className='py-5'>
                     <h2 className='primary-color react-title py-3 text-center'>Major features of React</h2>
-                        <ul className='q-list-item'>
-                            <li>It uses VirtualDOM instead of RealDOM considering that RealDOM manipulations are expensive.</li>
-                            <li>Supports server-side rendering.</li>
-                            <li>Follows Unidirectional data flow or data binding.</li>
-                            <li>Uses reusable/composable UI components to develop the view.</li>
-                        </ul>
+                    <ul className='q-list-item'>
+                        <li>It uses VirtualDOM instead of RealDOM considering that RealDOM manipulations are expensive.</li>
+                        <li>Supports server-side rendering.</li>
+                        <li>Follows Unidirectional data flow or data binding.</li>
+                        <li>Uses reusable/composable UI components to develop the view.</li>
+                    </ul>
                 </div>
                 <div className='py-5'>
                     <h2 className='primary-color react-title py-3 text-center'>How Virtual DOM works</h2>
@@ -160,10 +160,10 @@ const Home = () => {
                     <div className='flex justify-sb'>
                         <div style={{ width: "350px" }} className=' text-center'>
                             <p className='text-dom'>Browser</p>
-                            <img src={BROWSER} className='dom-img-1' style={{border: "1px solid #cccccc5e", borderRadius: "10px" }}/>
+                            <img src={BROWSER} className='dom-img-1' style={{ border: "1px solid #cccccc5e", borderRadius: "10px" }} />
                         </div>
                         <div style={{ width: "100px", marginLeft: '50px', marginTop: '250px' }} className=' text-center'>
-                           <img src={ARROW} className='dom-img-1' />
+                            <img src={ARROW} className='dom-img-1' />
                         </div>
                         <div style={{ width: "400px" }} className=' text-center'>
                             <p className='text-dom'>Real DOM</p>
