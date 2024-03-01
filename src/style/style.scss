@@ -269,5 +269,18 @@ pre {
     background: var(--light-gray); 
     border-radius: 10px;
   }
-  
+  .projec-page {
+    .content-bg {
+        background-color: #fafafa;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .role-title {
+        font-size: 20px;
+        font-weight: 700;
+    };
+    .role-sub-title {
+        padding-bottom: 10px;
+    }
+  }
   
