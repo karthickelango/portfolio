@@ -18,7 +18,6 @@ import MUI from '../images/svg/mui.svg'
 import MOBD from '../images/svg/mongodb.svg'
 import GIT from '../images/svg/github.svg'
 import JIRA from '../images/svg/jira.svg'
-import UnderLine from '../images/svg/underline.svg'
 
 const Skills = () => {
     TabTitle('Skills')

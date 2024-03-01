@@ -16,8 +16,8 @@ const Home = () => {
     return (
         <div className='container-item home'>
             <div className="container mt-30">
-                <div className="row pb-5">
-                    <div className="col">
+                <div className="row pb-5 about-container">
+                    <div className="col-6">
                         <h1 className='text-48 wow fadeInDown primary-color'>
                             I’m Karthick Elango, <span className='role'>frontend developer in React & full stack in MERN.</span>
                         </h1>
@@ -39,9 +39,9 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-6">
                         <img src={image} className='main-image' />
-                        <div className='lg:pl-20'>
+                        <div className='lg:pl-20 dis-mob-none'>
                             <ul>
                                 <li className='pt-8 '>
                                     <a className='align-item-center group flex text-sm font-medium text-zinc-800 transition hover dark:text-zinc-200 dark' href='https://www.linkedin.com/in/karthick-elango-2033a9100/' target='_blank'>
@@ -69,7 +69,7 @@ const Home = () => {
                 </div>
                 <div className='py-5'>
                     <div className='row'>
-                        <div className='col'>
+                        <div className='col-6'>
                             <h2 className='primary-color react-title pb-3'>What is React?</h2>
                             <p className='secondary-color'>
                                 React is an open-source, front end, JavaScript library for building user interfaces or UI components.
@@ -77,7 +77,7 @@ const Home = () => {
                                 React can be used as a base in the development of single-page or mobile applications.
                             </p>
                         </div>
-                        <div className='col'>
+                        <div className='col-6 mmt-15'>
                             <pre>
                                 <code>
                                     {
@@ -115,8 +115,8 @@ const Home = () => {
                     </ul>
                 </div>
                 <div className='py-5'>
-                    <div className='row'>
-                        <div className='col p-3'>
+                    <div className='row col-rev'>
+                        <div className='col-6 p-3'>
                             <pre>
                                 <code>
                                     {
@@ -141,7 +141,7 @@ const Home = () => {
                                 </code>
                             </pre>
                         </div>
-                        <div className='col'>
+                        <div className='col-6'>
                             <h2 className='primary-color react-title py-3'>What is JSX?</h2>
                             <p className='secondary-color'>
                                 JSX is a XML-like syntax extension to ECMAScript (the acronym stands for JavaScript XML).
@@ -160,7 +160,7 @@ const Home = () => {
                         <li>Uses reusable/composable UI components to develop the view.</li>
                     </ul>
                 </div>
-                <div className='py-5'>
+                <div className='py-5 dis-mob-none'>
                     <h2 className='primary-color react-title py-3 text-center'>How Virtual DOM works</h2>
                     <p className='secondary-color pt-2'>1. Whenever any underlying data changes, the entire UI is re-rendered in Virtual DOM representation.</p>
                     <div className='flex justify-sb'>
@@ -189,6 +189,34 @@ const Home = () => {
                         <div style={{ width: "400px" }} className=' text-center'>
                             <p className='text-dom'>Real DOM</p>
                             <img src={DOM2} className='dom-img-2' />
+                        </div>
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className="col-6 dis-web-none image-container">
+                        <div className='lg:pl-20'>
+                            <ul>
+                                <li className='pt-8 '>
+                                    <a className='align-item-center group flex text-sm font-medium text-zinc-800 transition hover dark:text-zinc-200 dark' href='https://www.linkedin.com/in/karthick-elango-2033a9100/' target='_blank'>
+                                        <svg viewBox="0 0 24 24" aria-hidden="true" className="h-6 w-6 flex-none fill-zinc-500 transition "><path d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 01-1.548-1.549 1.548 1.548 0 111.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z"></path></svg>
+                                        <span className='ml-4'>Follow on LinkedIn</span>
+                                    </a>
+                                </li>
+                                <li className='mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40 flex'>
+                                    <a className='align-item-center group flex text-sm font-medium text-zinc-800 transition hover dark:text-zinc-200 dark' href='mailto:karthik5ive@gmial.com'>
+                                        <svg viewBox="0 0 24 24" aria-hidden="true" className="h-6 w-6 flex-none fill-zinc-500 transition "><path fillRule="evenodd" d="M6 5a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H6Zm.245 2.187a.75.75 0 0 0-.99 1.126l6.25 5.5a.75.75 0 0 0 .99 0l6.25-5.5a.75.75 0 0 0-.99-1.126L12 12.251 6.245 7.187Z"></path></svg>
+                                        <span className='ml-4'>karthik5ive@gmial.com</span>
+                                    </a>
+                                </li>
+                                <li className='mt-8 text-cente'>
+                                    <span style={{ fontWeight: '500' }}>Resume:</span> <HireMe />
+                                    <button type="button" className="bg-success download-btn inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto">
+                                        <a href={Resume} download>
+                                            Download
+                                        </a>
+                                    </button>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>

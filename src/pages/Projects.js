@@ -16,7 +16,7 @@ const Projects = () => {
                     Things I've made trying to put my skills out there.
                 </h1>
                 <div className="row mt-16 sm:mt-20">
-                    <div className='col-6 projec-page'>
+                    <div className='col-md-6 col-sm-12 projec-page'>
                         <div className='content-bg'>
                             <a href='https://tweetxapp.netlify.app/' target='_blank'>
                                 <p className="relative z-10 relative z-10 role-title">Tweet app (MERN)</p>

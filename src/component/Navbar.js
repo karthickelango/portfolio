@@ -1,6 +1,7 @@
 import { React, Fragment } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import image from '../images/profile.png'
+import MobileMenu from './MobileMenu'
 
 const Navbar = () => {
     return (
@@ -10,7 +11,8 @@ const Navbar = () => {
                     <Link to='/' className='profile-link'>
                         <img src={image} className='profile-pic'/>
                     </Link>
-                    <ul className="nav justify-content-center nav-center">
+                    <MobileMenu />
+                    <ul className="nav justify-content-center nav-center dis-mob-none">
                         <NavLink to="/" className="nav-item">
                             <span className="nav-link">About</span>
                         </NavLink>
