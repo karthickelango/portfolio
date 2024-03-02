@@ -13,9 +13,6 @@ const Navbar = () => {
                     </Link>
                     <MobileMenu />
                     <ul className="nav justify-content-center nav-center dis-mob-none">
-                        <NavLink to="/" className="nav-item">
-                            <span className="nav-link">About</span>
-                        </NavLink>
                         <NavLink to="/qualification" className="nav-item">
                             <span className="nav-link">Qualification</span>
                         </NavLink>

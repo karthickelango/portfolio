@@ -49,14 +49,8 @@ const MobileMenu = () => {
                                         ><img src={Close} /></button>
                                         <div className="sm:flex sm:items-start">
                                             <div className="mt-3">
-                                                <Dialog.Title as="h3" className="text-base font-semibold leading-6 text-gray-900">
-                                                    Navigation
-                                                </Dialog.Title>
                                                 <div className="mt-2">
                                                     <ul className="mobile-menu">
-                                                        <NavLink to="/" className="nav-item" onClick={() => setOpen(false)}>
-                                                            <span className="nav-link">About</span>
-                                                        </NavLink>
                                                         <NavLink to="/qualification" className="nav-item" onClick={() => setOpen(false)}>
                                                             <span className="nav-link">Qualification</span>
                                                         </NavLink>
