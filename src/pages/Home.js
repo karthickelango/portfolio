@@ -177,7 +177,7 @@ const Home = () => {
                             <img src={ARROW} className='dom-img-1' />
                         </div>
                         <div style={{ width: "400px" }} className=' text-center'>
-                            <p className='text-dom'>Real DOM</p>
+                            <p className='text-dom'>Virtual DOM</p>
                             <img src={DOM1} className='dom-img-1' />
                         </div>
                     </div>
