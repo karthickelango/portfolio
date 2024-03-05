@@ -2,7 +2,7 @@ import React from 'react'
 import { Fragment, useRef, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { ExclamationTriangleIcon } from '@heroicons/react/24/outline'
-import Resume from '../images/karthick Elango.png'
+import Resume from '../images/karthick.jpg'
 import Close from '../images/svg/close.svg'
 
 
