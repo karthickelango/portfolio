@@ -8,6 +8,7 @@ import COMPARE from '../images/svg/compare.svg'
 import BROWSER from '../images/svg/browser.svg'
 import ARROW from '../images/svg/arrow.svg'
 import Resume from '../images/karthick.jpg'
+import { Link } from 'react-router-dom'
 
 
 
@@ -64,9 +65,10 @@ const Home = () => {
                                 <li className='mt-8 text-cente'>
                                     <span style={{ fontWeight: '500' }}>Resume:</span> <HireMe />
                                     <button type="button" className="bg-success download-btn inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto">
-                                        <a href='https://www.dropbox.com/scl/fi/wqzgruckotf2mpd1a12nn/karthick-Elango.pdf?rlkey=z3a00labteji9nzxcweiacvcu&dl=0' download>
+                                    <Link to="/file/karthickElango.pdf" target="_blank" download>Download</Link>
+                                        {/* <a href='https://www.dropbox.com/scl/fi/wqzgruckotf2mpd1a12nn/karthick-Elango.pdf?rlkey=z3a00labteji9nzxcweiacvcu&dl=0' download>
                                             Download
-                                        </a>
+                                        </a> */}
                                     </button>
                                 </li>
                             </ul>
@@ -217,9 +219,10 @@ const Home = () => {
                                 <li className='mt-8 text-cente'>
                                     <span style={{ fontWeight: '500' }}>Resume:</span> <HireMe />
                                     <button type="button" className="bg-success download-btn inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto">
-                                        <a href='https://www.dropbox.com/scl/fi/wqzgruckotf2mpd1a12nn/karthick-Elango.pdf?rlkey=z3a00labteji9nzxcweiacvcu&dl=0' target='_blank' download>
+                                    <Link to="/file/karthickElango.pdf" target="_blank" download>Download</Link>
+                                        {/* <a href='https://www.dropbox.com/scl/fi/wqzgruckotf2mpd1a12nn/karthick-Elango.pdf?rlkey=z3a00labteji9nzxcweiacvcu&dl=0' target='_blank' download>
                                             Download
-                                        </a>
+                                        </a> */}
                                     </button>
                                 </li>
                             </ul>
