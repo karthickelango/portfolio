@@ -40,7 +40,7 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 flex-mobile">
                         <img src={image} className='main-image' />
                         <div className='lg:pl-20 dis-mob-none'>
                             <ul>

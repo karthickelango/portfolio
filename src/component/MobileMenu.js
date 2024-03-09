@@ -47,7 +47,7 @@ const MobileMenu = () => {
                                             className="bg-success close-btn flex w-full justify-end rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto"
                                             onClick={() => setOpen(false)}
                                         ><img src={Close} /></button>
-                                        <div className="sm:flex sm:items-start">
+                                        <div className="sm:flex sm:items-start mt-5">
                                             <div className="mt-3">
                                                 <div className="mt-2">
                                                     <ul className="mobile-menu">
