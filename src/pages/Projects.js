@@ -51,7 +51,7 @@ const Projects = () => {
                                 <p className="relative z-10 relative z-10 role-title mb-3">Shopping app</p>
                                 {/* <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400 role-sub-title">A shopping Experience</p> */}
                                 <div className="grid grid-flow-col">
-                                    <div>
+                                    <div className='mt-25'>
                                         <img src={shopping} alt="" loading="lazy" />
                                     </div>
                                 </div>
@@ -62,10 +62,10 @@ const Projects = () => {
                     <div className='col-md-6 col-sm-12 projec-page mb-5'>
                         <a href='https://admindsboard.netlify.app/' target='_blank'>
                             <div className='content-bg'>
-                                <p className="relative z-10 relative z-10 role-title mb-3">Dashboard</p>
+                                <p className="relative z-10 relative z-10 role-title mb-3">Dashboard (MERN)</p>
                                 {/* <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400 role-sub-title">A shopping Experience</p> */}
                                 <div className="grid grid-flow-col">
-                                    <div>
+                                    <div className='mt-25'>
                                         <img src={dashboard} alt="" loading="lazy" />
                                     </div>
                                 </div>
