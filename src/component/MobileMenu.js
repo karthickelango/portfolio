@@ -51,6 +51,9 @@ const MobileMenu = () => {
                                             <div className="mt-3">
                                                 <div className="mt-2">
                                                     <ul className="mobile-menu">
+                                                        <NavLink to="/about" className="nav-item" onClick={() => setOpen(false)}>
+                                                            <span className="nav-link">About</span>
+                                                        </NavLink>
                                                         <NavLink to="/qualification" className="nav-item" onClick={() => setOpen(false)}>
                                                             <span className="nav-link">Qualification</span>
                                                         </NavLink>

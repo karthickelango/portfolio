@@ -14,7 +14,10 @@ const HireMe = () => {
 
     return (
         <>
-            <button onClick={() => setOpen(!open)} className='bg-success inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto'>Preview</button>
+            <a onClick={() => setOpen(!open)} class="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 group mt-6 w-full">
+                Preview CV
+            </a>
+            {/* <button onClick={() => setOpen(!open)} className='bg-success inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto'>Preview</button> */}
             <Transition.Root show={open} as={Fragment}>
                 <Dialog as="div" className="relative z-10" initialFocus={cancelButtonRef} onClose={setOpen}>
                     <Transition.Child
@@ -46,7 +49,7 @@ const HireMe = () => {
                                             type="button"
                                             className="bg-success close-btn inline-flex w-full justify-end rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto"
                                             onClick={() => setOpen(false)}
-                                        ><img src={Close}/></button>
+                                        ><img src={Close} /></button>
                                         <div className="sm:flex sm:items-start">
                                             <div className="">
                                                 <img src={Resume} style={{}} />
