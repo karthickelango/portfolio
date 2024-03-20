@@ -9,13 +9,10 @@ const Navbar = () => {
             <nav className="navbar navbar-light">
                 <div className="container-fluid">
                     <Link to='/' className='profile-link'>
-                        <img src={image} className='profile-pic' />
+                        <img src={image} className='profile-pic'/>
                     </Link>
                     <MobileMenu />
                     <ul className="nav justify-content-center nav-center dis-mob-none">
-                        <NavLink to="/about" className="nav-item">
-                            <span className="nav-link">About</span>
-                        </NavLink>
                         <NavLink to="/qualification" className="nav-item">
                             <span className="nav-link">Qualification</span>
                         </NavLink>
