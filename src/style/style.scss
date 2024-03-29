@@ -8,6 +8,7 @@
     --black: #000000;
     --btn-background: #F5F0FF;
     --light-gray: #D3D3D3;
+    --primary-green: #41b883
 }
 
 html {
@@ -189,6 +190,9 @@ body {
 
 .role-title {
     color: var(--primary-blue);
+    &.vue-title {
+        color: var(--primary-green);
+    }
 }
 
 .q-list-item {
@@ -292,9 +296,7 @@ pre {
     .role-title {
         font-size: 20px;
         font-weight: 700;
-    }
-
-    ;
+    };
 
     .role-sub-title {
         padding-bottom: 10px;

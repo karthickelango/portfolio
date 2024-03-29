@@ -18,6 +18,7 @@ import MUI from '../images/svg/mui.svg'
 import MOBD from '../images/svg/mongodb.svg'
 import GIT from '../images/svg/github.svg'
 import JIRA from '../images/svg/jira.svg'
+import VUEJS from '../images/svg/vuejs.svg'
 
 const Skills = () => {
     TabTitle('Skills')
@@ -30,6 +31,7 @@ const Skills = () => {
         { id: 6, title: 'Redux', src: REDUX },
         { id: 7, title: 'Nodejs', src: NODE },
         { id: 8, title: 'SCSS', src: SCSS },
+        { id: 9, title: 'Vuejs', src: VUEJS },
 
     ]
     const tools = [
