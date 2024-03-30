@@ -13,7 +13,7 @@ import Typewriter from "typewriter-effect";
 const Home = () => {
   TabTitle("Home");
   const string = [
-    "frontend developer in React.", "full stack in MERN.", "frontend developer in Vue.", "full stack in MEVN."
+    "frontend developer in React.", "full stack in MERN wait...", "also frontend developer in Vue.", "full stack in MEVN."
   ]
   return (
     <>
