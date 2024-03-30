@@ -107,8 +107,11 @@ body {
     font-weight: 700;
     letter-spacing: normal;
 
-    .role {
+    .role-react {
         color: var(--primary-blue);
+    }
+    .role-vue {
+        color: var(--primary-green);
     }
 }
 
