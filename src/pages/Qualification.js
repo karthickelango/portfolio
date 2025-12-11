@@ -11,10 +11,34 @@ const Qualification = () => {
                         Professional Experience
                     </p>
                 </div>
+                {/* Nubiznez */}
+                <section className='md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40'>
+                    <div className="grid max-w-3xl grid-cols-1 items-baseline gap-y-8 md:grid-cols-4">
+                        <h2 id=":S1:" className="text-sm font-semibold text-zinc-800 dark:text-zinc-500">Nubiznez</h2>
+                        <div className="md:col-span-3">
+                            <div className="space-y-16">
+                                <article className="group relative flex flex-col items-start">
+                                    <h3 className="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+                                        <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition sm:-inset-x-6 sm:rounded-2xl dark:bg-zinc-800/50"></div>
+                                        <span className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
+                                        <span className="relative z-10 role-title">Frontend Engineer</span>
+                                    </h3>
+                                    <p className="relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-3.5"><span className="absolute inset-y-0 left-0 flex items-center" aria-hidden="true"><span className="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"></span></span>Apr 2024 - Nov 2025. 1 yrs 8 mos (Coimbatore)</p>
+                                    <div className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+                                        <ul className='q-list-item'>
+                                            <li>Built a comprehensive HRMS platform covering attendance, payroll, shifts, leave management, ESS, automation workflows, and reminder features.</li>
+                                            <li>Designed responsive React dashboards and developed scalable Node.js/Express backend services with secure authentication and role-based access control.</li>
+                                        </ul>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 {/* Mammoth */}
                 <section className='md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40'>
                     <div className="grid max-w-3xl grid-cols-1 items-baseline gap-y-8 md:grid-cols-4">
-                        <h2 id=":S1:" className="text-sm font-semibold text-zinc-800 dark:text-zinc-100">Mammoth Analytics</h2>
+                        <h2 id=":S1:" className="text-sm font-semibold text-zinc-800 dark:text-zinc-500">Mammoth Analytics</h2>
                         <div className="md:col-span-3">
                             <div className="space-y-16">
                                 <article className="group relative flex flex-col items-start">
@@ -39,7 +63,7 @@ const Qualification = () => {
                 {/* nokdok */}
                 <section className='md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40'>
                     <div className="grid max-w-3xl grid-cols-1 items-baseline gap-y-8 md:grid-cols-4">
-                        <h2 id=":S1:" className="text-sm font-semibold text-zinc-800 dark:text-zinc-100">NokDok</h2>
+                        <h2 id=":S1:" className="text-sm font-semibold text-zinc-800 dark:text-zinc-500">NokDok</h2>
                         <div className="md:col-span-3">
                             <div className="space-y-16">
                                 <article className="group relative flex flex-col items-start">
@@ -64,7 +88,7 @@ const Qualification = () => {
                 {/* mebelkart */}
                 <section className='md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40'>
                     <div className="grid max-w-3xl grid-cols-1 items-baseline gap-y-8 md:grid-cols-4">
-                        <h2 id=":S1:" className="text-sm font-semibold text-zinc-800 dark:text-zinc-100">Mebelkart</h2>
+                        <h2 id=":S1:" className="text-sm font-semibold text-zinc-800 dark:text-zinc-500">Mebelkart</h2>
                         <div className="md:col-span-3">
                             <div className="space-y-16">
                                 <article className="group relative flex flex-col items-start">
@@ -93,7 +117,7 @@ const Qualification = () => {
                 </div>
                 <section className='md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40'>
                     <div className="grid max-w-3xl grid-cols-1 items-baseline gap-y-8 md:grid-cols-4">
-                        <h2 id=":S1:" className="text-sm font-semibold text-zinc-800 dark:text-zinc-100">Karpagam college of engineering</h2>
+                        <h2 id=":S1:" className="text-sm font-semibold text-zinc-800 dark:text-zinc-500">Karpagam college of engineering</h2>
                         <div className="md:col-span-3">
                             <div className="space-y-16">
                                 <article className="group relative flex flex-col items-start">
@@ -110,7 +134,7 @@ const Qualification = () => {
                 </section>
                 <section className='md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40'>
                     <div className="grid max-w-3xl grid-cols-1 items-baseline gap-y-8 md:grid-cols-4">
-                        <h2 id=":S1:" className="text-sm font-semibold text-zinc-800 dark:text-zinc-100">R.K.R high school</h2>
+                        <h2 id=":S1:" className="text-sm font-semibold text-zinc-800 dark:text-zinc-500">R.K.R high school</h2>
                         <div className="md:col-span-3">
                             <div className="space-y-16">
                                 <article className="group relative flex flex-col items-start">

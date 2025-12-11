@@ -19,6 +19,12 @@ import MOBD from '../images/svg/mongodb.svg'
 import GIT from '../images/svg/github.svg'
 import JIRA from '../images/svg/jira.svg'
 import VUEJS from '../images/svg/vuejs.svg'
+import MYSQL from '../images/svg/mysql.svg'
+import Antdesign from '../images/svg/antdesign.svg'
+import Chatgpt from '../images/svg/chatgpt.svg'
+import AIstudio from '../images/svg/google-ai-studio.svg'
+
+
 
 const Skills = () => {
     TabTitle('Skills')
@@ -44,12 +50,18 @@ const Skills = () => {
 
     ]
     const DB = [
-        { id: 1, title: 'MongoBD', src: MOBD }
+        { id: 1, title: 'MongoBD', src: MOBD },
+        { id: 2, title: 'Mysql', src: MYSQL }
     ]
     const Framework = [
         { id: 1, title: 'Bootstrap', src: BOOTSTRAP },
         { id: 2, title: 'Tailwind', src: TAILWIND },
         { id: 3, title: 'Mui', src: MUI },
+        { id: 4, title: 'Antdesign', src: Antdesign },
+    ]
+    const AItools = [
+        { id: 1, title: 'Chatgpt', src: Chatgpt },
+        { id: 2, title: 'AI Studio', src: AIstudio },
     ]
     return (
         <>
@@ -69,7 +81,7 @@ const Skills = () => {
                         }
                     </ul>
                 </div>
-                <div className='p-20  border-t border-zinc-100 dark:border-zinc-700/40s'>
+                <div className='p-20  border-t border-zinc-300 dark:border-zinc-700/40s'>
                     <p className='main-title'>
                         Tools
                     </p>
@@ -84,7 +96,7 @@ const Skills = () => {
                         }
                     </ul>
                 </div>
-                <div className='p-20 border-t border-zinc-100 dark:border-zinc-700/40s'>
+                <div className='p-20 border-t border-zinc-300 dark:border-zinc-700/40s'>
                     <p className='main-title'>
                         FrameWorks
                     </p>
@@ -99,13 +111,28 @@ const Skills = () => {
                         }
                     </ul>
                 </div>
-                <div className='p-20 border-t border-zinc-100 dark:border-zinc-700/40s'>
+                <div className='p-20 border-t border-zinc-300 dark:border-zinc-700/40s'>
                     <p className='main-title'>
                         Database
                     </p>
                     <ul className='frontend-icon'>
                         {
                             DB.map(obj => (
+                                <li key={obj.id}>
+                                    <img src={obj.src} />
+                                    <p className='title'>{obj.title}</p>
+                                </li>
+                            ))
+                        }
+                    </ul>
+                </div>
+                <div className='p-20 border-t border-zinc-300 dark:border-zinc-700/40s'>
+                    <p className='main-title'>
+                        AI Tools
+                    </p>
+                    <ul className='frontend-icon'>
+                        {
+                            AItools.map(obj => (
                                 <li key={obj.id}>
                                     <img src={obj.src} />
                                     <p className='title'>{obj.title}</p>

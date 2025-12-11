@@ -65,7 +65,7 @@ const Home = () => {
                 <ul>
                   <li className="pt-8 ">
                     <a
-                      className="align-item-center group flex text-sm font-medium text-zinc-800 transition hover dark:text-zinc-200 dark"
+                      className="align-item-center group flex text-sm font-medium text-zinc-800 transition hover dark:text-zinc-500 dark"
                       href="https://www.linkedin.com/in/karthick-elango-2033a9100/"
                       target="_blank"
                     >
@@ -81,7 +81,7 @@ const Home = () => {
                   </li>
                   <li className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40 flex">
                     <a
-                      className="align-item-center group flex text-sm font-medium text-zinc-800 transition hover dark:text-zinc-200 dark"
+                      className="align-item-center group flex text-sm font-medium text-zinc-800 transition hover dark:text-zinc-500 dark"
                       href="https://github.com/karthickelango"
                       target="_blank"
                     >
@@ -101,7 +101,7 @@ const Home = () => {
                   </li>
                   <li className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40 flex">
                     <a
-                      className="align-item-center group flex text-sm font-medium text-zinc-800 transition hover dark:text-zinc-200 dark"
+                      className="align-item-center group flex text-sm font-medium text-zinc-800 transition hover dark:text-zinc-500 dark"
                       href="https://mail.google.com/mail/?view=cm&fs=1&to=karthik5ive@gmial.com"
                       target="_blank"
                     >
